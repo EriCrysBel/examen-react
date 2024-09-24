@@ -1,0 +1,12 @@
+nav{
+  background-color: var(--bg-ter-color);
+}
+ul{
+  color:white;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+  color:white;
+  font-size: 15px;
+}

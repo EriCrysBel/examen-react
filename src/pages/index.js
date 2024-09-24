@@ -11,7 +11,7 @@ import { graphql } from "gatsby"
 
 const IndexPage = ({data}) => (
   <Layout>
-  <h1>Inicio</h1>   
+  <h1>Página de inicio</h1>   
   <div className="contenedorcardexamen">
           {data.allDataJson.edges.map(({ node }) => {
         const image = getImage(node.image);
@@ -32,7 +32,7 @@ const IndexPage = ({data}) => (
 )
 
 
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Inicio" />
 
 export const query = graphql`
   query  {
