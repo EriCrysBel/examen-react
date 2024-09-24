@@ -1,18 +1,19 @@
 
 import React from "react";
 import './card.css'
-import { StaticImage } from "gatsby-plugin-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
-const Card=()=>{
+
+const Card=({imagen, piefoto, titulo, descripcion,enlace})=>{
 return(
   <>
   <div className="cardexamen">
+    <h2>{titulo}</h2>
     <figure>
-      <StaticImage src='../images/logoPN.png' alt='Logotipo' />
+      <GatsbyImage image={imagen} alt={piefoto} />
     </figure>
-    <h2>Logotipo Patrimonio Nacional</h2>
-    <p>Este es el logo distintivo de la institución</p>
-    <button><Link to='https://www.patrimonionacional.es/'style={{
+    <p>{descripcion}</p>
+    <button><Link to={enlace} style={{
       textDecoration:'none',
       color:'white'
     }}>Leer más</Link></button>
