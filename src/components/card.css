@@ -1,0 +1,76 @@
+/* Colores:
+
+
+4. Tamaños de Elementos:
+Establece dimensiones mínimas y máximas para la tarjeta y sus componentes.
+Ancho Mínimo de la Tarjeta: 300px.
+Ancho Máximo de la Tarjeta: 400px.
+Altura de la Imagen: Relación de aspecto 16:9, ajustable.
+Altura del Botón: 48px.
+5. Botones:
+Diseña un conjunto de botones reutilizables con diferentes estados.
+Botón Primario:
+Color de Fondo: #007ACC.
+Color de Texto: #FFFFFF.
+Borde: None.
+Radio del Borde: 8px.
+Estado Hover: Fondo cambia a #005FA3.
+Botón Secundario:
+Color de Fondo: #FFFFFF.
+Color de Texto: #007ACC.
+Borde: 2px solid #007ACC.
+Radio del Borde: 8px.
+Estado Hover: Fondo cambia a #E5F6FF.
+6. Iconografía:
+Define un estilo de iconos que se debe seguir.
+Estilo de Iconos:
+Tamaño del Icono: 24px x 24px.
+Color del Icono Primario: #007ACC.
+Color del Icono Secundario: #333333. */
+
+
+.contenedorcardexamen{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cardexamen{
+  background-color: var(--bg-ter-color);
+  padding: 16px;
+  box-shadow: 3px 3px 6px grey;
+  margin:1em;
+  min-width: 300px;
+  max-width: 400px;
+}
+.cardexamen figure{
+  padding: 0;
+  margin: 0;
+}
+.cardexamen img{
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.cardexamen h2{
+  font-size: var(--text-title);
+  font-weight: var(--weight-title);
+  margin-bottom: 8px;
+  font-family: var(--font-primary);
+}
+.cardexamen p{
+  font-size: var(--text-secundary);
+  font-weight: var(--weight-tx-secundary);
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 16px;
+}
+.cardexamen button{
+  height: 48px;
+  width: 100%;
+  font-size: var(--text-regular);
+  font-weight: var(--weight-tx-regular);
+  background-color: #007ACC;
+  color: #FFFFFF;
+  border-radius: 8px;
+  border: none;
+}

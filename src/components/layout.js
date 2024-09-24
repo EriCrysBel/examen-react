@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()} &middot; Built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://react-card-exam.netlify.app/">Sitio web en linea</a>
         </footer>
       </div>
     </>

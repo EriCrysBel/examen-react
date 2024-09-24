@@ -5,12 +5,12 @@ import { Link } from "gatsby"
 const NavBar = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <li><Link to="/">Inicio</Link></li>
-          <li><Link to="/contacto">Contacto</Link></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul style={{display:'flex'}}>
+                <li style={{margin:'1em'}}><Link to="/">Inicio</Link></li>
+                <li style={{margin:'1em'}}><Link to="/contacto">Contacto</Link></li>
+            </ul>
+        </nav>
     </>
   )
 }

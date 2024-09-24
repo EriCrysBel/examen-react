@@ -10,6 +10,5 @@ const Contacto = () => (
 )
 
 
-export const Head = () => <Seo title="Contacto" />
 
 export default Contacto
