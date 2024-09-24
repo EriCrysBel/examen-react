@@ -3,13 +3,13 @@ import * as React from "react"
 import Layout from "../components/layout"
 
 
-const IndexPage = () => (
+const Contacto = () => (
   <Layout>
   
   </Layout>
 )
 
 
-export const Head = () => <Seo title="Inicio" />
+export const Head = () => <Seo title="Contacto" />
 
-export default IndexPage
+export default Contacto

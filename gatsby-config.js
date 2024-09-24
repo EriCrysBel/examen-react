@@ -1,18 +1,13 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
 
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `React Card Exam`,
+    description: `En este proyecto, implementamos los conocimientos aprendidos con Gatsby, framework de React para mostrar por pantalla unas cards recopilando los datos con GraphQl`,
+    author: `@ericrysbel`,
+    siteUrl: `https://react-card-exam.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-image`,
